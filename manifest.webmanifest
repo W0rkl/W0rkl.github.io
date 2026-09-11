@@ -1,0 +1,25 @@
+{
+  "id": "/",
+  "name": "Тихо — звуки для сна",
+  "short_name": "Тихо",
+  "description": "15 спокойных звуков, таймер сна и офлайн-режим без регистрации.",
+  "lang": "ru",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#080b12",
+  "theme_color": "#080b12",
+  "categories": ["health", "lifestyle", "music"],
+  "icons": [
+    {"src":"/icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"/icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"/icons/maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ],
+  "shortcuts": [
+    {"name":"Дождь","short_name":"Дождь","url":"/?sound=rain"},
+    {"name":"Море","short_name":"Море","url":"/?sound=ocean"},
+    {"name":"Коричневый шум","short_name":"Brown noise","url":"/?sound=brown-noise"}
+  ]
+}
