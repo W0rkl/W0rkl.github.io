@@ -1,0 +1,1316 @@
+{
+  "version": "audio-v2",
+  "preparedAt": "2026-09-10T20:23:51.705Z",
+  "methodology": "Twelve real field recordings, eleven CC0 Freesound HQ previews and one Public Domain SoundBible fireplace distributed by Blanket, plus three original generated colored noises. No synthesis or noise reduction for recordings. Sample-exact cyclic equal-power overlap; constant gain; MP3 highest VBR quality with Xing/LAME gapless metadata. Only user-requested wind receives a static -5dB treble shelf at 2500Hz. Colored noise retains its original cyclic master. Loudness filter is measurement-only, with output discarded. Technical metrics do not constitute listening approval.",
+  "toolVersion": "ffmpeg version 9.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "limitations": "Technical decoding and level checks are not a listening test. HQ MP3 source previews, not original WAV masters. Background playback on physical phones is not verified.",
+  "sounds": [
+    {
+      "id": "rain",
+      "name": "Дождь",
+      "version": "audio-v2",
+      "file": "/sounds/rain.audio-v2.mp3",
+      "sha256": "e1666acee7a916053cd4ea00111fd0be7b45d3bc672c63db419e3c43550c5d87",
+      "kind": "field-recording",
+      "title": "AutumnRainWithTingNov2011.wav",
+      "author": "kvgarlic",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/kvgarlic/sounds/136540/",
+      "downloadUrl": "https://cdn.freesound.org/previews/136/136540_1050391-hq.mp3",
+      "sourceRepositoryLicenseUrl": null,
+      "selectionReason": "Coordinator selected 5..97 seconds to avoid the author-described metal ting near the recording end.",
+      "licenseVerifiedDate": "2026-09-11",
+      "sourceSha256": "d9b2f072f5c454df1869bf2fd706165a32b122b8dc0fb88c85143aabd0cf7b88",
+      "sourceAudio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 48000,
+        "duration": 133.471979,
+        "durationFrames": null,
+        "bytes": 3058896,
+        "bitRate": 183288
+      },
+      "selection": {
+        "offsetSeconds": 5,
+        "durationSeconds": 92,
+        "selectedFrames": 4416000,
+        "policy": "Coordinator selected 5..97 seconds to avoid the author-described metal ting near the recording end.",
+        "crossfadeSeconds": 2,
+        "crossfadeFrames": 96000,
+        "crossfadeCurve": "equal-power quarter-sine",
+        "arrangement": "body [crossfade..end-crossfade], then equal-power blend of tail into head; output boundary follows adjacent source samples"
+      },
+      "processing": {
+        "targetIntegratedLufs": -27,
+        "peakCeilingDbtp": -6,
+        "staticGainDb": -1.96,
+        "staticToneFilter": null,
+        "staticToneReason": null,
+        "limitedByPeak": true,
+        "inputMeasurement": {
+          "integratedLufs": -28.23,
+          "truePeakDbtp": -4.54,
+          "loudnessRangeLu": 1.3,
+          "thresholdLufs": -38.23
+        },
+        "outputMeasurement": {
+          "integratedLufs": -30.17,
+          "truePeakDbtp": -6.52,
+          "loudnessRangeLu": 1.3,
+          "thresholdLufs": -40.17
+        },
+        "encoder": "libmp3lame -q:a 0 -write_xing 1",
+        "processingPasses": 1,
+        "dynamicsOrDenoisingApplied": false,
+        "fieldRecordingSynthesisApplied": false
+      },
+      "audio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 48000,
+        "duration": 90,
+        "durationFrames": null,
+        "bytes": 2763095,
+        "bitRate": 245524
+      },
+      "decodedMetrics": {
+        "decodedFrames": 4320000,
+        "decodedDurationSeconds": 90,
+        "samplePeakDbfs": -7.036205901424468,
+        "rmsDbfs": -35.1055847340518,
+        "start50msRmsDbfs": -35.30164835980594,
+        "end50msRmsDbfs": -36.33549228278579,
+        "seamAbsoluteDeltaByChannel": [
+          0.017087388318032026,
+          0.00792147172614932
+        ],
+        "seamMaxDeltaDbfs": -35.34648621866054,
+        "interiorAdjacentSampleDeltaRms": 0.012540188883330984,
+        "seamToInteriorDeltaRmsRatio": 1.3626101231015266,
+        "interpretation": "Numerical boundary and level checks only; not a listening test or guarantee of subjective seamlessness.",
+        "expectedFrames": 4320000,
+        "gaplessDecodeFrameCountMatchesExpected": true
+      },
+      "listeningApproval": false
+    },
+    {
+      "id": "thunder",
+      "name": "Гроза",
+      "version": "audio-v2",
+      "file": "/sounds/thunder.audio-v2.mp3",
+      "sha256": "a3363e44173eef3b335b8179781c13ab94959f8473ea5df880ea8d76643a20c8",
+      "kind": "field-recording",
+      "title": "Distant Thunder",
+      "author": "Beetlemuse",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/Beetlemuse/sounds/530133/",
+      "downloadUrl": "https://cdn.freesound.org/previews/530/530133_10334845-hq.mp3",
+      "sourceRepositoryLicenseUrl": null,
+      "selectionReason": null,
+      "licenseVerifiedDate": "2026-09-11",
+      "sourceSha256": "a03906e46dc9661c256f19f3e265086f0293d4b5665c9fd5ebe657e58ff9ef3e",
+      "sourceAudio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 44100,
+        "duration": 171.280476,
+        "bytes": 3994256,
+        "bitRate": 186527
+      },
+      "selection": {
+        "offsetSeconds": 39,
+        "durationSeconds": 92,
+        "selectedFrames": 4057200,
+        "policy": "Use a central segment for long recordings; omit one second at either edge for shorter recordings longer than twelve seconds.",
+        "crossfadeSeconds": 2,
+        "crossfadeFrames": 88200,
+        "crossfadeCurve": "equal-power quarter-sine",
+        "arrangement": "body [crossfade..end-crossfade], then equal-power blend of tail into head; output boundary follows adjacent source samples"
+      },
+      "processing": {
+        "targetIntegratedLufs": -27,
+        "peakCeilingDbtp": -6,
+        "staticGainDb": -5.36,
+        "staticToneFilter": null,
+        "staticToneReason": null,
+        "limitedByPeak": true,
+        "inputMeasurement": {
+          "integratedLufs": -26.42,
+          "truePeakDbtp": -1.14,
+          "loudnessRangeLu": 14.9,
+          "thresholdLufs": -36.46
+        },
+        "outputMeasurement": {
+          "integratedLufs": -31.77,
+          "truePeakDbtp": -6.5,
+          "loudnessRangeLu": 14.8,
+          "thresholdLufs": -41.81
+        },
+        "encoder": "libmp3lame -q:a 0 -write_xing 1",
+        "processingPasses": 1,
+        "dynamicsOrDenoisingApplied": false,
+        "fieldRecordingSynthesisApplied": false
+      },
+      "audio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 44100,
+        "duration": 90,
+        "bytes": 1920865,
+        "bitRate": 170642
+      },
+      "decodedMetrics": {
+        "decodedFrames": 3969000,
+        "decodedDurationSeconds": 90,
+        "samplePeakDbfs": -6.498472499445629,
+        "rmsDbfs": -34.02634160032564,
+        "start50msRmsDbfs": -21.416646069527747,
+        "end50msRmsDbfs": -18.222302911434397,
+        "seamAbsoluteDeltaByChannel": [
+          0.0033092256635427475,
+          0.0033092256635427475
+        ],
+        "seamMaxDeltaDbfs": -49.6054723262515,
+        "interiorAdjacentSampleDeltaRms": 0.002804998475352994,
+        "seamToInteriorDeltaRmsRatio": 1.1797602361000568,
+        "interpretation": "Numerical boundary and level checks only; not a listening test or guarantee of subjective seamlessness.",
+        "expectedFrames": 3969000,
+        "gaplessDecodeFrameCountMatchesExpected": true
+      },
+      "listeningApproval": false
+    },
+    {
+      "id": "ocean",
+      "name": "Море",
+      "version": "audio-v2",
+      "file": "/sounds/ocean.audio-v2.mp3",
+      "sha256": "6e0e7bed1782929d605e8baa6d4f8bef670f95012149f778141295f8439f2c9c",
+      "kind": "field-recording",
+      "title": "Calm ocean waves",
+      "author": "SamsterBirdies",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/SamsterBirdies/sounds/578524/",
+      "downloadUrl": "https://cdn.freesound.org/previews/578/578524_5487341-hq.mp3",
+      "sourceRepositoryLicenseUrl": null,
+      "selectionReason": null,
+      "licenseVerifiedDate": "2026-09-11",
+      "sourceSha256": "fd505dbd43cb1c3508f884279bf5d3e060bb14f2bc3d9b4cce334eb7a75b5d7f",
+      "sourceAudio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 48000,
+        "duration": 179.710146,
+        "bytes": 4107072,
+        "bitRate": 182805
+      },
+      "selection": {
+        "offsetSeconds": 43,
+        "durationSeconds": 92,
+        "selectedFrames": 4416000,
+        "policy": "Use a central segment for long recordings; omit one second at either edge for shorter recordings longer than twelve seconds.",
+        "crossfadeSeconds": 2,
+        "crossfadeFrames": 96000,
+        "crossfadeCurve": "equal-power quarter-sine",
+        "arrangement": "body [crossfade..end-crossfade], then equal-power blend of tail into head; output boundary follows adjacent source samples"
+      },
+      "processing": {
+        "targetIntegratedLufs": -27,
+        "peakCeilingDbtp": -6,
+        "staticGainDb": -7.600000000000001,
+        "staticToneFilter": null,
+        "staticToneReason": null,
+        "limitedByPeak": false,
+        "inputMeasurement": {
+          "integratedLufs": -19.4,
+          "truePeakDbtp": -0.66,
+          "loudnessRangeLu": 13.2,
+          "thresholdLufs": -30.51
+        },
+        "outputMeasurement": {
+          "integratedLufs": -27,
+          "truePeakDbtp": -8.28,
+          "loudnessRangeLu": 13.2,
+          "thresholdLufs": -38.11
+        },
+        "encoder": "libmp3lame -q:a 0 -write_xing 1",
+        "processingPasses": 1,
+        "dynamicsOrDenoisingApplied": false,
+        "fieldRecordingSynthesisApplied": false
+      },
+      "audio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 48000,
+        "duration": 90,
+        "bytes": 2540854,
+        "bitRate": 225774
+      },
+      "decodedMetrics": {
+        "decodedFrames": 4320000,
+        "decodedDurationSeconds": 90,
+        "samplePeakDbfs": -8.276250551163395,
+        "rmsDbfs": -31.61517763797314,
+        "start50msRmsDbfs": -37.233447241482125,
+        "end50msRmsDbfs": -34.22063869830071,
+        "seamAbsoluteDeltaByChannel": [
+          0.004155702888965607,
+          0.00553949736058712
+        ],
+        "seamMaxDeltaDbfs": -45.130592804445094,
+        "interiorAdjacentSampleDeltaRms": 0.00595026816948871,
+        "seamToInteriorDeltaRmsRatio": 0.9309660006572634,
+        "interpretation": "Numerical boundary and level checks only; not a listening test or guarantee of subjective seamlessness.",
+        "expectedFrames": 4320000,
+        "gaplessDecodeFrameCountMatchesExpected": true
+      },
+      "listeningApproval": false
+    },
+    {
+      "id": "fire",
+      "name": "Костёр",
+      "version": "audio-v2",
+      "file": "/sounds/fire.audio-v2.mp3",
+      "sha256": "7de50fa209fca98dbd2d8ab40dc601d06a8f1ea981e1a515d3b701be16173e37",
+      "kind": "field-recording",
+      "title": "Fireplace",
+      "author": "ezwa",
+      "license": "Public-Domain",
+      "licenseUrl": "https://soundbible.com/1543-Fireplace.html",
+      "sourceUrl": "https://soundbible.com/1543-Fireplace.html",
+      "downloadUrl": "https://raw.githubusercontent.com/rafaelmardojai/blanket/master/data/resources/sounds/fireplace.ogg",
+      "sourceRepositoryLicenseUrl": "https://github.com/rafaelmardojai/blanket/blob/master/SOUNDS_LICENSING.md",
+      "selectionReason": "Downloaded OGG begins with near-digital silence (first 50ms at -103dBFS after gain, compared with -40.5dBFS full RMS). Omit one second at either edge and apply the normal two-second cyclic overlap to avoid a recurring silence dip.",
+      "licenseVerifiedDate": "2026-09-11",
+      "sourceSha256": "a6395379a32c2dc30dd870c4571ded4a5311435aacfe354b3a82a9b3ab98620b",
+      "sourceAudio": {
+        "codec": "vorbis",
+        "channels": 2,
+        "sampleRate": 44100,
+        "duration": 25.537596,
+        "durationFrames": 1126208,
+        "bytes": 325065,
+        "bitRate": 160000
+      },
+      "selection": {
+        "offsetSeconds": 1,
+        "durationSeconds": 23.537573696145124,
+        "selectedFrames": 1038007,
+        "policy": "Downloaded OGG begins with near-digital silence (first 50ms at -103dBFS after gain, compared with -40.5dBFS full RMS). Omit one second at either edge and apply the normal two-second cyclic overlap to avoid a recurring silence dip.",
+        "crossfadeSeconds": 2,
+        "crossfadeFrames": 88200,
+        "crossfadeCurve": "equal-power quarter-sine",
+        "arrangement": "body [crossfade..end-crossfade], then equal-power blend of tail into head; output boundary follows adjacent source samples"
+      },
+      "processing": {
+        "targetIntegratedLufs": -27,
+        "peakCeilingDbtp": -6,
+        "staticGainDb": 2.6999999999999993,
+        "staticToneFilter": null,
+        "staticToneReason": null,
+        "limitedByPeak": true,
+        "inputMeasurement": {
+          "integratedLufs": -38.88,
+          "truePeakDbtp": -9.2,
+          "loudnessRangeLu": 1,
+          "thresholdLufs": -48.88
+        },
+        "outputMeasurement": {
+          "integratedLufs": -36.15,
+          "truePeakDbtp": -6.44,
+          "loudnessRangeLu": 1,
+          "thresholdLufs": -46.15
+        },
+        "encoder": "libmp3lame -q:a 0 -write_xing 1",
+        "processingPasses": 1,
+        "dynamicsOrDenoisingApplied": false,
+        "fieldRecordingSynthesisApplied": false
+      },
+      "audio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 44100,
+        "duration": 21.537574,
+        "durationFrames": null,
+        "bytes": 418685,
+        "bitRate": 155163
+      },
+      "decodedMetrics": {
+        "decodedFrames": 949807,
+        "decodedDurationSeconds": 21.537573696145124,
+        "samplePeakDbfs": -6.652576020447148,
+        "rmsDbfs": -40.622663521694335,
+        "start50msRmsDbfs": -40.42545192036508,
+        "end50msRmsDbfs": -40.90720607772052,
+        "seamAbsoluteDeltaByChannel": [
+          0.00014877691864967346,
+          0.00014877691864967346
+        ],
+        "seamMaxDeltaDbfs": -76.54928880599292,
+        "interiorAdjacentSampleDeltaRms": 0.008967844448365238,
+        "seamToInteriorDeltaRmsRatio": 0.016590042290128507,
+        "interpretation": "Numerical boundary and level checks only; not a listening test or guarantee of subjective seamlessness.",
+        "expectedFrames": 949807,
+        "gaplessDecodeFrameCountMatchesExpected": true
+      },
+      "listeningApproval": false
+    },
+    {
+      "id": "night-forest",
+      "name": "Ночной лес",
+      "version": "audio-v2",
+      "file": "/sounds/night-forest.audio-v2.mp3",
+      "sha256": "5a3cd63c287ad4c0f21da0fd948ec4e149fdd9a5495bb94409de3eef7e75c894",
+      "kind": "field-recording",
+      "title": "Night forest 3",
+      "author": "deleted_user_9900733 (formerly Hmuryj_sound-Kirill_Rozhkov)",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/deleted_user_9900733/sounds/808690/",
+      "downloadUrl": "https://cdn.freesound.org/previews/808/808690_9900733-hq.mp3",
+      "sourceRepositoryLicenseUrl": null,
+      "selectionReason": null,
+      "licenseVerifiedDate": "2026-09-11",
+      "sourceSha256": "2ed947275f291aa6fc83a74bc8ee81f41b3a317eff4b5b1d44e2e26266dd5d5b",
+      "sourceAudio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 48000,
+        "duration": 55.758667,
+        "bytes": 1276512,
+        "bitRate": 183012
+      },
+      "selection": {
+        "offsetSeconds": 1,
+        "durationSeconds": 53.75866666666667,
+        "selectedFrames": 2580416,
+        "policy": "Use a central segment for long recordings; omit one second at either edge for shorter recordings longer than twelve seconds.",
+        "crossfadeSeconds": 2,
+        "crossfadeFrames": 96000,
+        "crossfadeCurve": "equal-power quarter-sine",
+        "arrangement": "body [crossfade..end-crossfade], then equal-power blend of tail into head; output boundary follows adjacent source samples"
+      },
+      "processing": {
+        "targetIntegratedLufs": -27,
+        "peakCeilingDbtp": -6,
+        "staticGainDb": 32.51,
+        "staticToneFilter": null,
+        "staticToneReason": null,
+        "limitedByPeak": true,
+        "inputMeasurement": {
+          "integratedLufs": -64.5,
+          "truePeakDbtp": -39.01,
+          "loudnessRangeLu": 2.2,
+          "thresholdLufs": -74.5
+        },
+        "outputMeasurement": {
+          "integratedLufs": -32.03,
+          "truePeakDbtp": -6.63,
+          "loudnessRangeLu": 2.2,
+          "thresholdLufs": -42.03
+        },
+        "encoder": "libmp3lame -q:a 0 -write_xing 1",
+        "processingPasses": 1,
+        "dynamicsOrDenoisingApplied": false,
+        "fieldRecordingSynthesisApplied": false
+      },
+      "audio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 48000,
+        "duration": 51.758667,
+        "bytes": 1535975,
+        "bitRate": 237212
+      },
+      "decodedMetrics": {
+        "decodedFrames": 2484416,
+        "decodedDurationSeconds": 51.75866666666667,
+        "samplePeakDbfs": -6.631179811526246,
+        "rmsDbfs": -31.375883114479667,
+        "start50msRmsDbfs": -32.60546920555576,
+        "end50msRmsDbfs": -33.0204481754671,
+        "seamAbsoluteDeltaByChannel": [
+          0.008960772771388292,
+          0.001477917656302452
+        ],
+        "seamMaxDeltaDbfs": -40.9530907088158,
+        "interiorAdjacentSampleDeltaRms": 0.006940619988857351,
+        "seamToInteriorDeltaRmsRatio": 1.2910622949785675,
+        "interpretation": "Numerical boundary and level checks only; not a listening test or guarantee of subjective seamlessness.",
+        "expectedFrames": 2484416,
+        "gaplessDecodeFrameCountMatchesExpected": true
+      },
+      "listeningApproval": false
+    },
+    {
+      "id": "stream",
+      "name": "Ручей",
+      "version": "audio-v2",
+      "file": "/sounds/stream.audio-v2.mp3",
+      "sha256": "7fca48c7224b32c9156ba6bae68cb1a1a357e56ddb61b660b6769ab01bd01054",
+      "kind": "field-recording",
+      "title": "Gentle Stream Natural Stream Sound",
+      "author": "BurghRecords",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/BurghRecords/sounds/446019/",
+      "downloadUrl": "https://cdn.freesound.org/previews/446/446019_7241289-hq.mp3",
+      "sourceRepositoryLicenseUrl": null,
+      "selectionReason": null,
+      "licenseVerifiedDate": "2026-09-11",
+      "sourceSha256": "59a18db8c6fafbd3f3cec5c46bf5f878f5e55de76167a242119afcc4ac0f854e",
+      "sourceAudio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 48000,
+        "duration": 63.684917,
+        "bytes": 1593840,
+        "bitRate": 200105
+      },
+      "selection": {
+        "offsetSeconds": 1,
+        "durationSeconds": 61.684916666666666,
+        "selectedFrames": 2960876,
+        "policy": "Use a central segment for long recordings; omit one second at either edge for shorter recordings longer than twelve seconds.",
+        "crossfadeSeconds": 2,
+        "crossfadeFrames": 96000,
+        "crossfadeCurve": "equal-power quarter-sine",
+        "arrangement": "body [crossfade..end-crossfade], then equal-power blend of tail into head; output boundary follows adjacent source samples"
+      },
+      "processing": {
+        "targetIntegratedLufs": -27,
+        "peakCeilingDbtp": -6,
+        "staticGainDb": 1.0399999999999991,
+        "staticToneFilter": null,
+        "staticToneReason": null,
+        "limitedByPeak": false,
+        "inputMeasurement": {
+          "integratedLufs": -28.04,
+          "truePeakDbtp": -10.99,
+          "loudnessRangeLu": 3.6,
+          "thresholdLufs": -38.04
+        },
+        "outputMeasurement": {
+          "integratedLufs": -27.01,
+          "truePeakDbtp": -10.03,
+          "loudnessRangeLu": 3.6,
+          "thresholdLufs": -37.01
+        },
+        "encoder": "libmp3lame -q:a 0 -write_xing 1",
+        "processingPasses": 1,
+        "dynamicsOrDenoisingApplied": false,
+        "fieldRecordingSynthesisApplied": false
+      },
+      "audio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 48000,
+        "duration": 59.684917,
+        "bytes": 1967268,
+        "bitRate": 263537
+      },
+      "decodedMetrics": {
+        "decodedFrames": 2864876,
+        "decodedDurationSeconds": 59.684916666666666,
+        "samplePeakDbfs": -10.077158701827715,
+        "rmsDbfs": -31.83664041306684,
+        "start50msRmsDbfs": -33.660426004388306,
+        "end50msRmsDbfs": -33.808660535694266,
+        "seamAbsoluteDeltaByChannel": [
+          0.0018844008445739746,
+          0.002455230802297592
+        ],
+        "seamMaxDeltaDbfs": -52.19815352130668,
+        "interiorAdjacentSampleDeltaRms": 0.009892406779185894,
+        "seamToInteriorDeltaRmsRatio": 0.24819347375236503,
+        "interpretation": "Numerical boundary and level checks only; not a listening test or guarantee of subjective seamlessness.",
+        "expectedFrames": 2864876,
+        "gaplessDecodeFrameCountMatchesExpected": true
+      },
+      "listeningApproval": false
+    },
+    {
+      "id": "waterfall",
+      "name": "Водопад",
+      "version": "audio-v2",
+      "file": "/sounds/waterfall.audio-v2.mp3",
+      "sha256": "3cd7805b8fd3c9d9e91f82f5aa3c4e6b4902ec4a5d50c553bce5b16c001550dd",
+      "kind": "field-recording",
+      "title": "Waterfall",
+      "author": "nsmusic",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/nsmusic/sounds/321886/",
+      "downloadUrl": "https://cdn.freesound.org/previews/321/321886_252156-hq.mp3",
+      "sourceRepositoryLicenseUrl": null,
+      "selectionReason": null,
+      "licenseVerifiedDate": "2026-09-11",
+      "sourceSha256": "b1206a4f4907b316b25f842ed8b8630fde5db0c3fe614e7f6117c9153f442f44",
+      "sourceAudio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 44100,
+        "duration": 63.958095,
+        "bytes": 1585548,
+        "bitRate": 198194
+      },
+      "selection": {
+        "offsetSeconds": 1,
+        "durationSeconds": 61.958072562358275,
+        "selectedFrames": 2732351,
+        "policy": "Use a central segment for long recordings; omit one second at either edge for shorter recordings longer than twelve seconds.",
+        "crossfadeSeconds": 2,
+        "crossfadeFrames": 88200,
+        "crossfadeCurve": "equal-power quarter-sine",
+        "arrangement": "body [crossfade..end-crossfade], then equal-power blend of tail into head; output boundary follows adjacent source samples"
+      },
+      "processing": {
+        "targetIntegratedLufs": -27,
+        "peakCeilingDbtp": -6,
+        "staticGainDb": -6.26,
+        "staticToneFilter": null,
+        "staticToneReason": null,
+        "limitedByPeak": true,
+        "inputMeasurement": {
+          "integratedLufs": -26.86,
+          "truePeakDbtp": -0.24,
+          "loudnessRangeLu": 1.1,
+          "thresholdLufs": -36.86
+        },
+        "outputMeasurement": {
+          "integratedLufs": -33.11,
+          "truePeakDbtp": -6.48,
+          "loudnessRangeLu": 1.1,
+          "thresholdLufs": -43.11
+        },
+        "encoder": "libmp3lame -q:a 0 -write_xing 1",
+        "processingPasses": 1,
+        "dynamicsOrDenoisingApplied": false,
+        "fieldRecordingSynthesisApplied": false
+      },
+      "audio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 44100,
+        "duration": 59.958073,
+        "bytes": 2000265,
+        "bitRate": 266662
+      },
+      "decodedMetrics": {
+        "decodedFrames": 2644151,
+        "decodedDurationSeconds": 59.958072562358275,
+        "samplePeakDbfs": -6.522310660233133,
+        "rmsDbfs": -37.33145736512053,
+        "start50msRmsDbfs": -35.48660947643978,
+        "end50msRmsDbfs": -35.36441083279009,
+        "seamAbsoluteDeltaByChannel": [
+          0.0023762594209983945,
+          0.0065705557353794575
+        ],
+        "seamMaxDeltaDbfs": -43.647957928129685,
+        "interiorAdjacentSampleDeltaRms": 0.004886797493393811,
+        "seamToInteriorDeltaRmsRatio": 1.3445524894906788,
+        "interpretation": "Numerical boundary and level checks only; not a listening test or guarantee of subjective seamlessness.",
+        "expectedFrames": 2644151,
+        "gaplessDecodeFrameCountMatchesExpected": true
+      },
+      "listeningApproval": false
+    },
+    {
+      "id": "wind",
+      "name": "Ветер",
+      "version": "audio-v2",
+      "file": "/sounds/wind.audio-v2.mp3",
+      "sha256": "57a840c3cba36a5964cd41030e24158914cb318e374c6e4d46184b43cf917731",
+      "kind": "field-recording",
+      "title": "Soft Wind in the Trees - Leaves rustle",
+      "author": "Borgory",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/Borgory/sounds/751473/",
+      "downloadUrl": "https://cdn.freesound.org/previews/751/751473_801011-hq.mp3",
+      "sourceRepositoryLicenseUrl": null,
+      "selectionReason": "Coordinator approved quieter 100..145 seconds after source scan found a strong isolated peak at 45 seconds and a calmer final section.",
+      "licenseVerifiedDate": "2026-09-11",
+      "sourceSha256": "94d8015169027ae21efdb88c7ed54b410cd516f9d59a9b6ac9cba0d073ae6def",
+      "sourceAudio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 48000,
+        "duration": 146.75,
+        "durationFrames": null,
+        "bytes": 2784576,
+        "bitRate": 151765
+      },
+      "selection": {
+        "offsetSeconds": 100,
+        "durationSeconds": 45,
+        "selectedFrames": 2160000,
+        "policy": "Coordinator approved quieter 100..145 seconds after source scan found a strong isolated peak at 45 seconds and a calmer final section.",
+        "crossfadeSeconds": 2,
+        "crossfadeFrames": 96000,
+        "crossfadeCurve": "equal-power quarter-sine",
+        "arrangement": "body [crossfade..end-crossfade], then equal-power blend of tail into head; output boundary follows adjacent source samples"
+      },
+      "processing": {
+        "targetIntegratedLufs": -29,
+        "peakCeilingDbtp": -6,
+        "staticGainDb": 11.119999999999997,
+        "staticToneFilter": "treble=g=-5:f=2500",
+        "staticToneReason": "User auditioned this recording and requested a slightly softer timbre.",
+        "limitedByPeak": false,
+        "inputMeasurement": {
+          "integratedLufs": -40.12,
+          "truePeakDbtp": -24.26,
+          "loudnessRangeLu": 4.1,
+          "thresholdLufs": -50.12
+        },
+        "outputMeasurement": {
+          "integratedLufs": -28.99,
+          "truePeakDbtp": -13.17,
+          "loudnessRangeLu": 4.1,
+          "thresholdLufs": -38.99
+        },
+        "encoder": "libmp3lame -q:a 0 -write_xing 1",
+        "processingPasses": 1,
+        "dynamicsOrDenoisingApplied": false,
+        "fieldRecordingSynthesisApplied": false
+      },
+      "audio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 48000,
+        "duration": 43,
+        "durationFrames": null,
+        "bytes": 826974,
+        "bitRate": 153700
+      },
+      "decodedMetrics": {
+        "decodedFrames": 2064000,
+        "decodedDurationSeconds": 43,
+        "samplePeakDbfs": -13.166216152925426,
+        "rmsDbfs": -33.01029852227679,
+        "start50msRmsDbfs": -32.18767165130893,
+        "end50msRmsDbfs": -32.505821078078334,
+        "seamAbsoluteDeltaByChannel": [
+          0.010601213201880455,
+          0.010601213201880455
+        ],
+        "seamMaxDeltaDbfs": -39.492888625397946,
+        "interiorAdjacentSampleDeltaRms": 0.009607654536309006,
+        "seamToInteriorDeltaRmsRatio": 1.1034132380402124,
+        "interpretation": "Numerical boundary and level checks only; not a listening test or guarantee of subjective seamlessness.",
+        "expectedFrames": 2064000,
+        "gaplessDecodeFrameCountMatchesExpected": true
+      },
+      "listeningApproval": false
+    },
+    {
+      "id": "birds",
+      "name": "Птицы",
+      "version": "audio-v2",
+      "file": "/sounds/birds.audio-v2.mp3",
+      "sha256": "57d9e83c9ee10025d93ede7d850f435342cd10accef7abcbaf8c51f871ebf72e",
+      "kind": "field-recording",
+      "title": "Birds in the Slovenian Forest - Looped",
+      "author": "GammaGool",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/GammaGool/sounds/850505/",
+      "downloadUrl": "https://cdn.freesound.org/previews/850/850505_8908475-hq.mp3",
+      "sourceRepositoryLicenseUrl": null,
+      "selectionReason": null,
+      "licenseVerifiedDate": "2026-09-11",
+      "sourceSha256": "cec0999fe4d153388f87cfd476cc24f0533673130fc2812ff3d7143e7e6d275d",
+      "sourceAudio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 44100,
+        "duration": 63.485442,
+        "bytes": 1444193,
+        "bitRate": 181860
+      },
+      "selection": {
+        "offsetSeconds": 1,
+        "durationSeconds": 61.485419501133784,
+        "selectedFrames": 2711507,
+        "policy": "Use a central segment for long recordings; omit one second at either edge for shorter recordings longer than twelve seconds.",
+        "crossfadeSeconds": 2,
+        "crossfadeFrames": 88200,
+        "crossfadeCurve": "equal-power quarter-sine",
+        "arrangement": "body [crossfade..end-crossfade], then equal-power blend of tail into head; output boundary follows adjacent source samples"
+      },
+      "processing": {
+        "targetIntegratedLufs": -27,
+        "peakCeilingDbtp": -6,
+        "staticGainDb": 7.130000000000003,
+        "staticToneFilter": null,
+        "staticToneReason": null,
+        "limitedByPeak": false,
+        "inputMeasurement": {
+          "integratedLufs": -34.13,
+          "truePeakDbtp": -15.54,
+          "loudnessRangeLu": 12.4,
+          "thresholdLufs": -45.54
+        },
+        "outputMeasurement": {
+          "integratedLufs": -27.01,
+          "truePeakDbtp": -8.41,
+          "loudnessRangeLu": 12.4,
+          "thresholdLufs": -38.41
+        },
+        "encoder": "libmp3lame -q:a 0 -write_xing 1",
+        "processingPasses": 1,
+        "dynamicsOrDenoisingApplied": false,
+        "fieldRecordingSynthesisApplied": false
+      },
+      "audio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 44100,
+        "duration": 59.48542,
+        "bytes": 1682032,
+        "bitRate": 226000
+      },
+      "decodedMetrics": {
+        "decodedFrames": 2623307,
+        "decodedDurationSeconds": 59.485419501133784,
+        "samplePeakDbfs": -8.42002174930548,
+        "rmsDbfs": -34.30295931584975,
+        "start50msRmsDbfs": -47.116372631694794,
+        "end50msRmsDbfs": -43.92385166002545,
+        "seamAbsoluteDeltaByChannel": [
+          0.0018080522422678769,
+          0.00016662850975990295
+        ],
+        "seamMaxDeltaDbfs": -54.85578050153972,
+        "interiorAdjacentSampleDeltaRms": 0.008175455662748618,
+        "seamToInteriorDeltaRmsRatio": 0.22115614307667875,
+        "interpretation": "Numerical boundary and level checks only; not a listening test or guarantee of subjective seamlessness.",
+        "expectedFrames": 2623307,
+        "gaplessDecodeFrameCountMatchesExpected": true
+      },
+      "listeningApproval": false
+    },
+    {
+      "id": "crickets",
+      "name": "Сверчки",
+      "version": "audio-v2",
+      "file": "/sounds/crickets.audio-v2.mp3",
+      "sha256": "c7caccc129ef798be3789e6195e72c5c7387572a2c6b51da9d338c10cb750b76",
+      "kind": "field-recording",
+      "title": "Crickets At Night - Clean sound",
+      "author": "Defelozedd94",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/Defelozedd94/sounds/522298/",
+      "downloadUrl": "https://cdn.freesound.org/previews/522/522298_9084007-hq.mp3",
+      "sourceRepositoryLicenseUrl": null,
+      "selectionReason": null,
+      "licenseVerifiedDate": "2026-09-11",
+      "sourceSha256": "8ae77b161d9e530739f31f4885941e6bdfff218060d530314b59383cbce0bdfa",
+      "sourceAudio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 48000,
+        "duration": 169.002146,
+        "bytes": 3947184,
+        "bitRate": 186814
+      },
+      "selection": {
+        "offsetSeconds": 38,
+        "durationSeconds": 92,
+        "selectedFrames": 4416000,
+        "policy": "Use a central segment for long recordings; omit one second at either edge for shorter recordings longer than twelve seconds.",
+        "crossfadeSeconds": 2,
+        "crossfadeFrames": 96000,
+        "crossfadeCurve": "equal-power quarter-sine",
+        "arrangement": "body [crossfade..end-crossfade], then equal-power blend of tail into head; output boundary follows adjacent source samples"
+      },
+      "processing": {
+        "targetIntegratedLufs": -27,
+        "peakCeilingDbtp": -6,
+        "staticGainDb": 0.46000000000000085,
+        "staticToneFilter": null,
+        "staticToneReason": null,
+        "limitedByPeak": false,
+        "inputMeasurement": {
+          "integratedLufs": -27.46,
+          "truePeakDbtp": -14.98,
+          "loudnessRangeLu": 11.6,
+          "thresholdLufs": -38.04
+        },
+        "outputMeasurement": {
+          "integratedLufs": -27.01,
+          "truePeakDbtp": -14.54,
+          "loudnessRangeLu": 11.7,
+          "thresholdLufs": -37.58
+        },
+        "encoder": "libmp3lame -q:a 0 -write_xing 1",
+        "processingPasses": 1,
+        "dynamicsOrDenoisingApplied": false,
+        "fieldRecordingSynthesisApplied": false
+      },
+      "audio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 48000,
+        "duration": 90,
+        "bytes": 2705793,
+        "bitRate": 240431
+      },
+      "decodedMetrics": {
+        "decodedFrames": 4320000,
+        "decodedDurationSeconds": 90,
+        "samplePeakDbfs": -14.535153513592078,
+        "rmsDbfs": -33.92810121064003,
+        "start50msRmsDbfs": -29.893618528700834,
+        "end50msRmsDbfs": -31.630580028372002,
+        "seamAbsoluteDeltaByChannel": [
+          0.007696702145040035,
+          0.012258886359632015
+        ],
+        "seamMaxDeltaDbfs": -38.23097961728864,
+        "interiorAdjacentSampleDeltaRms": 0.011513004902392593,
+        "seamToInteriorDeltaRmsRatio": 1.0647859931931771,
+        "interpretation": "Numerical boundary and level checks only; not a listening test or guarantee of subjective seamlessness.",
+        "expectedFrames": 4320000,
+        "gaplessDecodeFrameCountMatchesExpected": true
+      },
+      "listeningApproval": false
+    },
+    {
+      "id": "train",
+      "name": "Поезд",
+      "version": "audio-v2",
+      "file": "/sounds/train.audio-v2.mp3",
+      "sha256": "fdde68028c1c9c5890fe58004ec8e8553dd45ca829015cc72989b5ea3e18c931",
+      "kind": "field-recording",
+      "title": "Steam Train Interior.MP3",
+      "author": "allh",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/allh/sounds/133099/",
+      "downloadUrl": "https://cdn.freesound.org/previews/133/133099_2404400-hq.mp3",
+      "sourceRepositoryLicenseUrl": null,
+      "selectionReason": null,
+      "licenseVerifiedDate": "2026-09-11",
+      "sourceSha256": "803c2eda05e5b55057eb0f104b2bed2f6544d5c9fa4fb8fd0b2dee67fef7d961",
+      "sourceAudio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 44100,
+        "duration": 136.072902,
+        "bytes": 3096077,
+        "bitRate": 181956
+      },
+      "selection": {
+        "offsetSeconds": 22,
+        "durationSeconds": 92,
+        "selectedFrames": 4057200,
+        "policy": "Use a central segment for long recordings; omit one second at either edge for shorter recordings longer than twelve seconds.",
+        "crossfadeSeconds": 2,
+        "crossfadeFrames": 88200,
+        "crossfadeCurve": "equal-power quarter-sine",
+        "arrangement": "body [crossfade..end-crossfade], then equal-power blend of tail into head; output boundary follows adjacent source samples"
+      },
+      "processing": {
+        "targetIntegratedLufs": -27,
+        "peakCeilingDbtp": -6,
+        "staticGainDb": -7.1899999999999995,
+        "staticToneFilter": null,
+        "staticToneReason": null,
+        "limitedByPeak": true,
+        "inputMeasurement": {
+          "integratedLufs": -25.88,
+          "truePeakDbtp": 0.69,
+          "loudnessRangeLu": 8.2,
+          "thresholdLufs": -35.88
+        },
+        "outputMeasurement": {
+          "integratedLufs": -33.07,
+          "truePeakDbtp": -6.47,
+          "loudnessRangeLu": 8.2,
+          "thresholdLufs": -43.07
+        },
+        "encoder": "libmp3lame -q:a 0 -write_xing 1",
+        "processingPasses": 1,
+        "dynamicsOrDenoisingApplied": false,
+        "fieldRecordingSynthesisApplied": false
+      },
+      "audio": {
+        "codec": "mp3",
+        "channels": 2,
+        "sampleRate": 44100,
+        "duration": 90,
+        "bytes": 2650720,
+        "bitRate": 235486
+      },
+      "decodedMetrics": {
+        "decodedFrames": 3969000,
+        "decodedDurationSeconds": 90,
+        "samplePeakDbfs": -7.022716645962241,
+        "rmsDbfs": -28.545258832451545,
+        "start50msRmsDbfs": -26.056412356931503,
+        "end50msRmsDbfs": -26.085066906344203,
+        "seamAbsoluteDeltaByChannel": [
+          0.005989093333482742,
+          0.00703643262386322
+        ],
+        "seamMaxDeltaDbfs": -43.052949329770556,
+        "interiorAdjacentSampleDeltaRms": 0.0022332931735651305,
+        "seamToInteriorDeltaRmsRatio": 3.150698129180492,
+        "interpretation": "Numerical boundary and level checks only; not a listening test or guarantee of subjective seamlessness.",
+        "expectedFrames": 3969000,
+        "gaplessDecodeFrameCountMatchesExpected": true
+      },
+      "listeningApproval": false
+    },
+    {
+      "id": "fan",
+      "name": "Вентилятор",
+      "version": "audio-v2",
+      "file": "/sounds/fan.audio-v2.mp3",
+      "sha256": "365af15420e3cbafbc5d1c0727cc00fa7fc354417a2122610e24c37b599e1615",
+      "kind": "field-recording",
+      "title": "Computer Fan Loop",
+      "author": "Ezcah",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://freesound.org/people/Ezcah/sounds/242042/",
+      "downloadUrl": "https://cdn.freesound.org/previews/242/242042_1900515-hq.mp3",
+      "sourceRepositoryLicenseUrl": null,
+      "selectionReason": null,
+      "licenseVerifiedDate": "2026-09-11",
+      "sourceSha256": "1324b8b6b2b251577f2a51d644b7ad2984900e4583474440cb4edf0754aaf290",
+      "sourceAudio": {
+        "codec": "mp3",
+        "channels": 1,
+        "sampleRate": 48000,
+        "duration": 60.644708,
+        "bytes": 1329504,
+        "bitRate": 175304
+      },
+      "selection": {
+        "offsetSeconds": 1,
+        "durationSeconds": 58.6446875,
+        "selectedFrames": 2814945,
+        "policy": "Use a central segment for long recordings; omit one second at either edge for shorter recordings longer than twelve seconds.",
+        "crossfadeSeconds": 2,
+        "crossfadeFrames": 96000,
+        "crossfadeCurve": "equal-power quarter-sine",
+        "arrangement": "body [crossfade..end-crossfade], then equal-power blend of tail into head; output boundary follows adjacent source samples"
+      },
+      "processing": {
+        "targetIntegratedLufs": -27,
+        "peakCeilingDbtp": -6,
+        "staticGainDb": -1.25,
+        "staticToneFilter": null,
+        "staticToneReason": null,
+        "limitedByPeak": false,
+        "inputMeasurement": {
+          "integratedLufs": -25.75,
+          "truePeakDbtp": -7.67,
+          "loudnessRangeLu": 1,
+          "thresholdLufs": -35.75
+        },
+        "outputMeasurement": {
+          "integratedLufs": -27,
+          "truePeakDbtp": -8.88,
+          "loudnessRangeLu": 1,
+          "thresholdLufs": -37
+        },
+        "encoder": "libmp3lame -q:a 0 -write_xing 1",
+        "processingPasses": 1,
+        "dynamicsOrDenoisingApplied": false,
+        "fieldRecordingSynthesisApplied": false
+      },
+      "audio": {
+        "codec": "mp3",
+        "channels": 1,
+        "sampleRate": 48000,
+        "duration": 56.644688,
+        "bytes": 865085,
+        "bitRate": 122056
+      },
+      "decodedMetrics": {
+        "decodedFrames": 2718945,
+        "decodedDurationSeconds": 56.6446875,
+        "samplePeakDbfs": -8.885537021161614,
+        "rmsDbfs": -25.597157356179807,
+        "start50msRmsDbfs": -26.738528723167395,
+        "end50msRmsDbfs": -25.586320419522043,
+        "seamAbsoluteDeltaByChannel": [
+          0.005588780157268047
+        ],
+        "seamMaxDeltaDbfs": -45.053659472964426,
+        "interiorAdjacentSampleDeltaRms": 0.0032734588877981427,
+        "seamToInteriorDeltaRmsRatio": 1.7073011602804278,
+        "interpretation": "Numerical boundary and level checks only; not a listening test or guarantee of subjective seamlessness.",
+        "expectedFrames": 2718945,
+        "gaplessDecodeFrameCountMatchesExpected": true
+      },
+      "listeningApproval": false
+    },
+    {
+      "id": "white-noise",
+      "name": "Белый шум",
+      "version": "audio-v2",
+      "file": "/sounds/white-noise.audio-v2.mp3",
+      "sha256": "adb281590b3608fd522857956476c57e4d21e35b829c881080fa3c82f6b227d1",
+      "kind": "generated-noise",
+      "title": "White noise",
+      "author": "Тихо",
+      "license": "Original",
+      "licenseUrl": null,
+      "sourceUrl": null,
+      "downloadUrl": null,
+      "sourceRepositoryLicenseUrl": null,
+      "selectionReason": null,
+      "licenseVerifiedDate": null,
+      "sourceSha256": "fe09bc3631c65136ce2fc96c5723cb2071139811f9a529baef442e9c94e431f2",
+      "sourceAudio": {
+        "codec": "pcm_s16le",
+        "channels": 1,
+        "sampleRate": 24000,
+        "duration": 45,
+        "bytes": 2160044,
+        "bitRate": 384000
+      },
+      "selection": {
+        "offsetSeconds": 0,
+        "durationSeconds": 45,
+        "selectedFrames": 2160000,
+        "policy": "Preserve existing 45-second cyclic master without another crossfade.",
+        "crossfadeSeconds": 0,
+        "crossfadeFrames": 0,
+        "crossfadeCurve": null,
+        "arrangement": "unchanged master"
+      },
+      "processing": {
+        "targetIntegratedLufs": -27,
+        "peakCeilingDbtp": -6,
+        "staticGainDb": -10.93,
+        "staticToneFilter": null,
+        "staticToneReason": null,
+        "limitedByPeak": false,
+        "inputMeasurement": {
+          "integratedLufs": -16.07,
+          "truePeakDbtp": -8.54,
+          "loudnessRangeLu": 0,
+          "thresholdLufs": -26.07
+        },
+        "outputMeasurement": {
+          "integratedLufs": -27,
+          "truePeakDbtp": -19.05,
+          "loudnessRangeLu": 0.1,
+          "thresholdLufs": -37
+        },
+        "encoder": "libmp3lame -q:a 0 -write_xing 1",
+        "processingPasses": 1,
+        "dynamicsOrDenoisingApplied": false,
+        "fieldRecordingSynthesisApplied": false
+      },
+      "audio": {
+        "codec": "mp3",
+        "channels": 1,
+        "sampleRate": 48000,
+        "duration": 45,
+        "bytes": 666667,
+        "bitRate": 118405
+      },
+      "decodedMetrics": {
+        "decodedFrames": 2160000,
+        "decodedDurationSeconds": 45,
+        "samplePeakDbfs": -19.04829495037533,
+        "rmsDbfs": -29.86273177753318,
+        "start50msRmsDbfs": -29.78322994680614,
+        "end50msRmsDbfs": -29.889998672370197,
+        "seamAbsoluteDeltaByChannel": [
+          0.08776668831706047
+        ],
+        "seamMaxDeltaDbfs": -21.133405769625764,
+        "interiorAdjacentSampleDeltaRms": 0.02664791347703369,
+        "seamToInteriorDeltaRmsRatio": 3.29356699513084,
+        "interpretation": "Numerical boundary and level checks only; not a listening test or guarantee of subjective seamlessness.",
+        "expectedFrames": 2160000,
+        "gaplessDecodeFrameCountMatchesExpected": true
+      },
+      "listeningApproval": false
+    },
+    {
+      "id": "pink-noise",
+      "name": "Розовый шум",
+      "version": "audio-v2",
+      "file": "/sounds/pink-noise.audio-v2.mp3",
+      "sha256": "8b428abca23783817c7610e96370b5bfcb1743123a0f75a27d3cece69cd3e18d",
+      "kind": "generated-noise",
+      "title": "Pink noise",
+      "author": "Тихо",
+      "license": "Original",
+      "licenseUrl": null,
+      "sourceUrl": null,
+      "downloadUrl": null,
+      "sourceRepositoryLicenseUrl": null,
+      "selectionReason": null,
+      "licenseVerifiedDate": null,
+      "sourceSha256": "48cf17d9d25750851f911d249b4dd7d84545c8bbf83bf7bffd1d62edaf1667a6",
+      "sourceAudio": {
+        "codec": "pcm_s16le",
+        "channels": 1,
+        "sampleRate": 24000,
+        "duration": 45,
+        "bytes": 2160044,
+        "bitRate": 384000
+      },
+      "selection": {
+        "offsetSeconds": 0,
+        "durationSeconds": 45,
+        "selectedFrames": 2160000,
+        "policy": "Preserve existing 45-second cyclic master without another crossfade.",
+        "crossfadeSeconds": 0,
+        "crossfadeFrames": 0,
+        "crossfadeCurve": null,
+        "arrangement": "unchanged master"
+      },
+      "processing": {
+        "targetIntegratedLufs": -27,
+        "peakCeilingDbtp": -6,
+        "staticGainDb": -7.739999999999998,
+        "staticToneFilter": null,
+        "staticToneReason": null,
+        "limitedByPeak": false,
+        "inputMeasurement": {
+          "integratedLufs": -19.26,
+          "truePeakDbtp": -6.73,
+          "loudnessRangeLu": 0,
+          "thresholdLufs": -29.26
+        },
+        "outputMeasurement": {
+          "integratedLufs": -27,
+          "truePeakDbtp": -14.32,
+          "loudnessRangeLu": 0.1,
+          "thresholdLufs": -37
+        },
+        "encoder": "libmp3lame -q:a 0 -write_xing 1",
+        "processingPasses": 1,
+        "dynamicsOrDenoisingApplied": false,
+        "fieldRecordingSynthesisApplied": false
+      },
+      "audio": {
+        "codec": "mp3",
+        "channels": 1,
+        "sampleRate": 48000,
+        "duration": 45,
+        "bytes": 583530,
+        "bitRate": 103633
+      },
+      "decodedMetrics": {
+        "decodedFrames": 2160000,
+        "decodedDurationSeconds": 45,
+        "samplePeakDbfs": -14.37048038778995,
+        "rmsDbfs": -26.54854690444965,
+        "start50msRmsDbfs": -26.297703327131853,
+        "end50msRmsDbfs": -27.400577144765236,
+        "seamAbsoluteDeltaByChannel": [
+          0.023295976221561432
+        ],
+        "seamMaxDeltaDbfs": -32.65438171311202,
+        "interiorAdjacentSampleDeltaRms": 0.01721837048467179,
+        "seamToInteriorDeltaRmsRatio": 1.3529721783080504,
+        "interpretation": "Numerical boundary and level checks only; not a listening test or guarantee of subjective seamlessness.",
+        "expectedFrames": 2160000,
+        "gaplessDecodeFrameCountMatchesExpected": true
+      },
+      "listeningApproval": false
+    },
+    {
+      "id": "brown-noise",
+      "name": "Коричневый шум",
+      "version": "audio-v2",
+      "file": "/sounds/brown-noise.audio-v2.mp3",
+      "sha256": "3df07ae2203001a256ec1b9f232178908e63f186d9b34bad0da3f56ec5369aab",
+      "kind": "generated-noise",
+      "title": "Brown noise",
+      "author": "Тихо",
+      "license": "Original",
+      "licenseUrl": null,
+      "sourceUrl": null,
+      "downloadUrl": null,
+      "sourceRepositoryLicenseUrl": null,
+      "selectionReason": null,
+      "licenseVerifiedDate": null,
+      "sourceSha256": "c3121115e56679331775ecdab0714741bf41e9748c43b6da41fc33adb96d5fa1",
+      "sourceAudio": {
+        "codec": "pcm_s16le",
+        "channels": 1,
+        "sampleRate": 24000,
+        "duration": 45,
+        "bytes": 2160044,
+        "bitRate": 384000
+      },
+      "selection": {
+        "offsetSeconds": 0,
+        "durationSeconds": 45,
+        "selectedFrames": 2160000,
+        "policy": "Preserve existing 45-second cyclic master without another crossfade.",
+        "crossfadeSeconds": 0,
+        "crossfadeFrames": 0,
+        "crossfadeCurve": null,
+        "arrangement": "unchanged master"
+      },
+      "processing": {
+        "targetIntegratedLufs": -27,
+        "peakCeilingDbtp": -6,
+        "staticGainDb": -0.9100000000000001,
+        "staticToneFilter": null,
+        "staticToneReason": null,
+        "limitedByPeak": false,
+        "inputMeasurement": {
+          "integratedLufs": -26.09,
+          "truePeakDbtp": -6.73,
+          "loudnessRangeLu": 0.4,
+          "thresholdLufs": -36.09
+        },
+        "outputMeasurement": {
+          "integratedLufs": -26.99,
+          "truePeakDbtp": -7.7,
+          "loudnessRangeLu": 0.4,
+          "thresholdLufs": -36.99
+        },
+        "encoder": "libmp3lame -q:a 0 -write_xing 1",
+        "processingPasses": 1,
+        "dynamicsOrDenoisingApplied": false,
+        "fieldRecordingSynthesisApplied": false
+      },
+      "audio": {
+        "codec": "mp3",
+        "channels": 1,
+        "sampleRate": 48000,
+        "duration": 45,
+        "bytes": 588619,
+        "bitRate": 104537
+      },
+      "decodedMetrics": {
+        "decodedFrames": 2160000,
+        "decodedDurationSeconds": 45,
+        "samplePeakDbfs": -7.704743953514768,
+        "rmsDbfs": -19.695541506664778,
+        "start50msRmsDbfs": -24.752753920075754,
+        "end50msRmsDbfs": -18.376998942982258,
+        "seamAbsoluteDeltaByChannel": [
+          0.0032494738698005676
+        ],
+        "seamMaxDeltaDbfs": -49.763739020050224,
+        "interiorAdjacentSampleDeltaRms": 0.005485449600248409,
+        "seamToInteriorDeltaRmsRatio": 0.5923805898523642,
+        "interpretation": "Numerical boundary and level checks only; not a listening test or guarantee of subjective seamlessness.",
+        "expectedFrames": 2160000,
+        "gaplessDecodeFrameCountMatchesExpected": true
+      },
+      "listeningApproval": false
+    }
+  ]
+}

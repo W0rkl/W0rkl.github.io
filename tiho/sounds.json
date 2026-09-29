@@ -1,0 +1,152 @@
+[
+  {
+    "id": "rain",
+    "name": "Дождь",
+    "category": "Вода",
+    "description": "Мягкий осенний дождь",
+    "file": "/tiho/sounds/rain.audio-v2.mp3",
+    "icon": "CloudRain",
+    "accent": "#1668FF",
+    "version": "audio-v2"
+  },
+  {
+    "id": "thunder",
+    "name": "Гроза",
+    "category": "Погода",
+    "description": "Дальний гром приближающейся грозы",
+    "file": "/tiho/sounds/thunder.audio-v2.mp3",
+    "icon": "CloudLightning",
+    "accent": "#5746FF",
+    "version": "audio-v2"
+  },
+  {
+    "id": "ocean",
+    "name": "Море",
+    "category": "Вода",
+    "description": "Спокойные волны у берега",
+    "file": "/tiho/sounds/ocean.audio-v2.mp3",
+    "icon": "Waves",
+    "accent": "#00A7C4",
+    "version": "audio-v2"
+  },
+  {
+    "id": "fire",
+    "name": "Костёр",
+    "category": "Тепло",
+    "description": "Треск небольшого костра",
+    "file": "/tiho/sounds/fire.audio-v2.mp3",
+    "icon": "Flame",
+    "accent": "#FF6A3D",
+    "version": "audio-v2"
+  },
+  {
+    "id": "night-forest",
+    "name": "Ночной лес",
+    "category": "Природа",
+    "description": "Ночная атмосфера у леса",
+    "file": "/tiho/sounds/night-forest.audio-v2.mp3",
+    "icon": "Trees",
+    "accent": "#148A5B",
+    "version": "audio-v2"
+  },
+  {
+    "id": "stream",
+    "name": "Ручей",
+    "category": "Вода",
+    "description": "Лёгкое течение по камням",
+    "file": "/tiho/sounds/stream.audio-v2.mp3",
+    "icon": "Droplets",
+    "accent": "#1C8DFF",
+    "version": "audio-v2"
+  },
+  {
+    "id": "waterfall",
+    "name": "Водопад",
+    "category": "Вода",
+    "description": "Плотный равномерный поток",
+    "file": "/tiho/sounds/waterfall.audio-v2.mp3",
+    "icon": "ChartNoAxesColumnIncreasing",
+    "accent": "#2B70D8",
+    "version": "audio-v2"
+  },
+  {
+    "id": "wind",
+    "name": "Ветер",
+    "category": "Воздух",
+    "description": "Мягкий шелест листвы на ветру",
+    "file": "/tiho/sounds/wind.audio-v2.mp3",
+    "icon": "Wind",
+    "accent": "#79A8D8",
+    "version": "audio-v2"
+  },
+  {
+    "id": "birds",
+    "name": "Птицы",
+    "category": "Природа",
+    "description": "Пение птиц в словенском лесу",
+    "file": "/tiho/sounds/birds.audio-v2.mp3",
+    "icon": "Bird",
+    "accent": "#F5B82E",
+    "version": "audio-v2"
+  },
+  {
+    "id": "crickets",
+    "name": "Сверчки",
+    "category": "Природа",
+    "description": "Ровный ритм тёплой ночи",
+    "file": "/tiho/sounds/crickets.audio-v2.mp3",
+    "icon": "AudioLines",
+    "accent": "#8AA635",
+    "version": "audio-v2"
+  },
+  {
+    "id": "train",
+    "name": "Поезд",
+    "category": "Дорога",
+    "description": "Стук колёс из деревянного вагона",
+    "file": "/tiho/sounds/train.audio-v2.mp3",
+    "icon": "TrainFront",
+    "accent": "#333333",
+    "version": "audio-v2"
+  },
+  {
+    "id": "fan",
+    "name": "Вентилятор",
+    "category": "Дом",
+    "description": "Мягкий постоянный гул",
+    "file": "/tiho/sounds/fan.audio-v2.mp3",
+    "icon": "Fan",
+    "accent": "#7D8B99",
+    "version": "audio-v2"
+  },
+  {
+    "id": "white-noise",
+    "name": "Белый шум",
+    "category": "Шумы",
+    "description": "Ровный широкий спектр",
+    "file": "/tiho/sounds/white-noise.audio-v2.mp3",
+    "icon": "ScanLine",
+    "accent": "#A9B3C2",
+    "version": "audio-v2"
+  },
+  {
+    "id": "pink-noise",
+    "name": "Розовый шум",
+    "category": "Шумы",
+    "description": "Мягкий сбалансированный шум",
+    "file": "/tiho/sounds/pink-noise.audio-v2.mp3",
+    "icon": "Activity",
+    "accent": "#E878A8",
+    "version": "audio-v2"
+  },
+  {
+    "id": "brown-noise",
+    "name": "Коричневый шум",
+    "category": "Шумы",
+    "description": "Глубокий низкочастотный фон",
+    "file": "/tiho/sounds/brown-noise.audio-v2.mp3",
+    "icon": "AudioWaveform",
+    "accent": "#8A5D43",
+    "version": "audio-v2"
+  }
+]
